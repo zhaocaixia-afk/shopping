@@ -1,4 +1,5 @@
 <template>
+<!--  使用了mint-ui-->
   <div>
     <mt-swipe :auto="4000">
       <mt-swipe-item v-for="(lunbo,index) in homelunbotu" :key="index">
@@ -6,7 +7,6 @@
       </mt-swipe-item>
     </mt-swipe>
   </div>
-
 </template>
 
 <script>
