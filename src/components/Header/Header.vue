@@ -17,7 +17,7 @@
         }
       },
       created(){
-        this.flag = "$route.path"=='/home'?false:true
+        this.flag = this.$route.path=='/home'?false:true
       },
       methods:{
         goBack(){
